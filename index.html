@@ -11,6 +11,41 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		 <style>
+        /* CSS code from the previous response */
+        .wrapper.style2.spotlights section {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 50px;
+        }
+
+        .wrapper.style2.spotlights .spotlight-item {
+            display: flex;
+            flex-direction: row-reverse; /* Default image on the right, text on the left */
+        }
+
+        .wrapper.style2.spotlights .spotlight-item .image {
+            width: 50%;
+        }
+
+        .wrapper.style2.spotlights .spotlight-item .content {
+            width: 50%;
+        }
+
+        .wrapper.style2.spotlights .spotlight-item.reverse {
+            flex-direction: row; /* Reverse layout for sections with 'reverse' class */
+        }
+
+        .wrapper.style2.spotlights .spotlight-item .image img {
+            width: 100%; /* Ensures image fills the space */
+            border-radius: 10px;
+        }
+
+        .wrapper.style2.spotlights .spotlight-item .content {
+            padding: 20px;
+        }
+    </style>
 	</head>
 	<body class="is-preload">
 
@@ -191,51 +226,53 @@
 					</section>
 
 			<!-- About Me 5 -->
-					<section id="About Me 5" class="wrapper style2 spotlights">
-						<section>
-						<div>
-							<h2>About Me</h2>
-						</div>
-						<div>
-							<a href="#" class="image"><img src="images/drum.jpg" alt="" data-position="center center" /></a>
-							<div class="content">
-								<div class="inner">
-									<h2>Drumming</h2>
-									<p>I have been drumming for over a decade. In college I was in a band with three friends (Jason Oberstein, Doug Roth, Cole Makuch). We played shows around Saint Louis for our four years there and ultimately ended up making an album. 
-									Everything from the song writing, instrument playing, recording, mixing, and mastering was done in house by the four of us. 
-									The self-titled Album "Doug Addicts" can be found on all major streaming platforms and is linked below.</p>
-									<p>This picture is from an impromptu acoustic set we ran outdoors one day during covid.</p>
-									<ul class="actions">
-										<li><a href="https://music.apple.com/us/album/doug-addicts/1641767028" class="button">The Album</a></li>
-									</ul>
-								</div>
-							</div>
-						</section>
-						<section>
-							<a href="#" class="image"><img src="images/badminton.JPG" alt="" data-position="top center" /></a>
-							<div class="content">
-								<div class="inner">
-									<h2>Badminton</h2>
-									<p>I started playing seriously while living in Taiwan. It is now my activity for working out as well as a great social sport. I'm always down for a game.</p>
-									<p>I need a better action shot of me playing, so this will do for now.
-									</p>
-								</div>
-							</div>
-						</section>
-						<section>
-							<a href="#" class="image"><img src="images/food.jpg" alt="" data-position="25% 25%" /></a>
-							<div class="content">
-								<div class="inner">
-									<h2>Eating and Travelling</h2>
-									<p>I also love to eat and travel (who doesn't)! I have been lucky enough to see much of the world and hope to continue eating my way through the world one country at a time.</p>
-									<p>This picture is me eating a really good burger on the Lunar New Year in Hualien, Taiwan. Ends up the only restaurant that was open that night was an American one!
-									</p>
-								</div>
-							</div>
-						</section>
-					</section>
-			
-			</div>
+<section id="About Me 5" class="wrapper style2 spotlights">
+    <!-- About Me section -->
+    <section>
+        <div>
+            <h2>About Me</h2>
+        </div>
+    </section>
+
+    <!-- Drumming section with text on the left, image on the right -->
+    <section class="spotlight-item">
+        <div class="content">
+            <div class="inner">
+                <h2>Drumming</h2>
+                <p>I have been drumming for over a decade. In college I was in a band with three friends (Jason Oberstein, Doug Roth, Cole Makuch). We played shows around Saint Louis for our four years there and ultimately ended up making an album. Everything from the song writing, instrument playing, recording, mixing, and mastering was done in house by the four of us. The self-titled Album "Doug Addicts" can be found on all major streaming platforms and is linked below.</p>
+                <p>This picture is from an impromptu acoustic set we ran outdoors one day during covid.</p>
+                <ul class="actions">
+                    <li><a href="https://music.apple.com/us/album/doug-addicts/1641767028" class="button">The Album</a></li>
+                </ul>
+            </div>
+        </div>
+        <a href="#" class="image"><img src="images/drum.jpg" alt="" data-position="center center" /></a>
+    </section>
+
+    <!-- Badminton section with text on the right, image on the left -->
+    <section class="spotlight-item reverse">
+        <a href="#" class="image"><img src="images/badminton.JPG" alt="" data-position="top center" /></a>
+        <div class="content">
+            <div class="inner">
+                <h2>Badminton</h2>
+                <p>I started playing seriously while living in Taiwan. It is now my activity for working out as well as a great social sport. I'm always down for a game.</p>
+                <p>I need a better action shot of me playing, so this will do for now.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Food section with text on the left, image on the right -->
+    <section class="spotlight-item">
+        <div class="content">
+            <div class="inner">
+                <h2>Eating and Travelling</h2>
+                <p>I also love to eat and travel (who doesn't)! I have been lucky enough to see much of the world and hope to continue eating my way through the world one country at a time.</p>
+                <p>This picture is me eating a really good burger on the Lunar New Year in Hualien, Taiwan. Ends up the only restaurant that was open that night was an American one!</p>
+            </div>
+        </div>
+        <a href="#" class="image"><img src="images/food.jpg" alt="" data-position="25% 25%" /></a>
+    </section>
+</section>
 
 		<!-- Footer -->
 			<footer id="footer" class="wrapper style1-alt">
