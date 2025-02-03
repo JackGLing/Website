@@ -112,6 +112,13 @@ input, select, textarea {
 			transition: none !important;
 		}
 
+	::selection {
+  /* Change highlight background color to purple */
+  background: #312450 ;
+  /* Change highlight text color to white */
+  color: #ffffff;
+}
+
 /* Type */
 
 	body, input, select, textarea {
