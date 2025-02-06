@@ -165,11 +165,11 @@ input, select, textarea {
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #ffffff;
+			color: fffff;
 		}
 
 	strong, b {
-		color: #ffffff;
+		color: fffff;
 		font-weight: bold;
 	}
 
@@ -182,7 +182,7 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #ffffff;
+		color: fffff;
 		font-weight: bold;
 		line-height: 1.5;
 		margin: 0 0 0.5em 0;
@@ -1842,7 +1842,7 @@ input, select, textarea {
 		border: solid 1px !important;
 		border-color: rgba(255, 255, 255, 0.15) !important;
 		border-radius: 3em;
-		color: #ffffff !important;
+		color: fffff !important;
 		cursor: pointer;
 		display: inline-block;
 		font-size: 0.6em;
@@ -1873,7 +1873,7 @@ input, select, textarea {
 			-webkit-transition: opacity 0.2s ease, -webkit-transform 0.2s ease;
 			-ms-transition: opacity 0.2s ease, -ms-transform 0.2s ease;
 			transition: opacity 0.2s ease, transform 0.2s ease;
-			background: #ffffff;
+			background: fffff;
 			border-radius: 3em;
 			content: '';
 			height: 100%;
@@ -1921,7 +1921,7 @@ input, select, textarea {
 		input[type="button"].primary,
 		button.primary,
 		.button.primary {
-			background-color: #ffffff;
+			background-color: fffff;
 			color: #312450 !important;
 		}
 
@@ -1972,7 +1972,7 @@ input, select, textarea {
 			input[type="button"]:hover:active,
 			button:hover:active,
 			.button:hover:active {
-				border-color: #ffffff !important;
+				border-color: fffff !important;
 			}
 
 				input[type="submit"]:hover:active:after,
@@ -2302,7 +2302,7 @@ input, select, textarea {
 		}
 
 	label {
-		color: #ffffff;
+		color: fffff;
 		font-weight: bold;
 		line-height: 1.5;
 		margin: 0 0 0.7em 0;
@@ -2551,11 +2551,11 @@ input, select, textarea {
 				}
 
 				.wrapper.style2 .icon.major:before {
-					color: #f2a43d;
+					color: #5b011b;
 				}
 
 				.wrapper.style2-alt .icon.major:before {
-					color: #eb5f3b;
+					color: #7b0323;
 				}
 
 				.wrapper.style3 .icon.major:before {
@@ -3255,11 +3255,11 @@ input, select, textarea {
 		}
 
 		.wrapper.style2 {
-			background-color: #f2a43d;
+			background-color: #5b011b;
 		}
 
 		.wrapper.style2-alt {
-			background-color: #eb5f3b;
+			background-color: #7b0323;
 		}
 
 		.wrapper.style3 {
